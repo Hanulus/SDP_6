@@ -1,7 +1,7 @@
-
-#Strategies package for delivery system.
-#Contains all delivery strategy implementations.
-
+"""
+Strategies package for delivery system.
+Contains all delivery strategy implementations.
+"""
 from .delivery_strategy import DeliveryStrategy
 from .standard_delivery import StandardDelivery
 from .express_delivery import ExpressDelivery
